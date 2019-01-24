@@ -33,6 +33,7 @@ class AppointmentPrivateCourse_PCAdmin:
 
         # 选择会员
         admin_appoint_private_course.search_customer_obj().click()
+        time.sleep(2)
 
         # 选择预约的课程
         Select(admin_appoint_private_course.private_course_select_obj()).select_by_visible_text(course_name)

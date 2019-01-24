@@ -34,8 +34,9 @@ class AppointmentGroupCourse_PCAdmin:
 
         # 定位会员输入手机号及输入手机号
         admin_appoint_group_course.member_phone_obj().click()
-        admin_appoint_group_course.member_phone_obj().send_keys("18321829313")
         time.sleep(2)
+        admin_appoint_group_course.member_phone_obj().send_keys("18321829313")
+        time.sleep(3)
 
         # 选择输入的会员
         admin_appoint_group_course.search_customer_obj().click()

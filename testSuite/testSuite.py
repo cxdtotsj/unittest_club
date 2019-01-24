@@ -58,6 +58,7 @@ testMemberAppoint_H5 = unittest.TestLoader().loadTestsFromTestCase(TestMemberApp
 testAdminAppoint_PC = unittest.TestLoader().loadTestsFromTestCase(TestAdminAppointCourse_PC)
 
 
+
 # 运行：编辑会员的私教合同以及储值卡合同
 testEditCardContract = unittest.TestLoader().loadTestsFromTestCase(TestEditCardContract)
 
@@ -66,7 +67,7 @@ testEditCardContract = unittest.TestLoader().loadTestsFromTestCase(TestEditCardC
 testDeleteCourse = unittest.TestLoader().loadTestsFromTestCase(TestDeleteCourse)
 
 # 全部流程
-# #suite = unittest.TestSuite([testSettingStore,testCard,testAddStaff,testAddCustomer])
+# suite = unittest.TestSuite([testSettingStore,testCard,testAddStaff,testAddCustomer])
 
 # 主流程
 suite = unittest.TestSuite([testGroupCourse,testPrivateCourse,testPurchasecontract,testMemberAppoint_H5,testAdminAppoint_PC,testEditCardContract,testDeleteCourse])
